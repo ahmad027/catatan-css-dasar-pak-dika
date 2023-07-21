@@ -2,4 +2,15 @@ CSS ( Cascading Style Sheet)
 
     adalah aturan yang digunakan untuk menampilkan elemen / tag HTML
 
-    
+    dibuat terpisah dengan HTML
+
+
+    bertujuan untuk memisahkan konten dan Style
+
+    1 CSS dapat digunakan untuk banyak halaman HTML
+
+    1 Halaman HTML dapat terlihat berbeda jika menggunakan CSS yang berbeda pula
+
+    contoh website 
+
+    www.csszengarden.com 

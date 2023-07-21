@@ -1,0 +1,13 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 100px;
+  color: red;
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+p {
+  font-family: serif;
+  font-weight: bold;
+  font-style: oblique;
+}

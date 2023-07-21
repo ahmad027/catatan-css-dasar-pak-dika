@@ -1,0 +1,14 @@
+Penempatan CSS
+
+ - embed
+
+    <style></style>
+
+- inline
+
+    <p style="color: blue;">....</p>
+
+
+- external 
+
+    <link rel="stylesheet" href="style.css">

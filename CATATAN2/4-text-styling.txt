@@ -1,0 +1,74 @@
+# TEXT Styling CSS
+
+color
+    memberi warna pada tulisan
+
+text-align
+    mengatur format paragraf / teks
+
+text-indent
+    memberi indensasi pada paragraf / teks
+
+text-decoration
+    mengatur dekorasi pada teks
+
+text-transform
+    mengubah jenis huruf menjadi huruf besar, kecil / kapital
+
+letter-spacing
+    mengatur spasi antar huruf
+
+word-spacing
+    mengatur spasi antar kata 
+
+
+# color 
+
+    -> nama warna
+
+         red, blue, yellow
+
+    -> hexadecimal
+
+        #ff0000, #20b2aa, #4169e1
+
+    -> rgb
+
+        rgb(255,0,0), rgb(32,178,170). rgb(65,105,225)
+
+
+website cek color picker
+
+    https://www.w3schools.com/colors/colors_picker.asp
+
+
+# text-align
+    left
+    right 
+    center 
+    justify 
+
+# text-indent
+    px
+    %
+
+# text-decoration
+    none
+    underline 
+    overline 
+    line-through 
+
+
+# text-transform
+    none
+    lowercase
+    uppercase
+    capitalize
+
+# letter-spacing
+    normal
+    px
+
+# word-spacing
+    normal
+    px

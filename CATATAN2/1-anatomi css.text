@@ -1,0 +1,37 @@
+Anatomi CSS
+
+
+selector { property: value; }
+
+    h1 { color : blue; }
+
+    h1 {
+        font-family: "Arial";
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+    }
+
+
+Selector, 
+    digunakan untuk memilih dan memanipulasi elemen spesifik pada HTML.
+
+    Elemen HTML dipilih berdasarkan tag, id, class bahkan pola / pattern.
+
+    Semakin kompleks struktur HTML, selector juga bisa semakin kompleks / spesifik.
+
+
+Cara membaca coding CSS, 
+
+    misal h1 { color: blue; }
+
+    "CSS, tolong pilihkan saya seluruh elemen h1 yang ada di halaman, lalu ubah teks di dalamnya menjadi warna biru.
+
+
+Referensi website CSS
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+
+    http://css-tricks.com/almanac
+
