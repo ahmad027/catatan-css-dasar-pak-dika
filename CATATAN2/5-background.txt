@@ -1,0 +1,52 @@
+# Background
+
+    property pada Background
+
+    - background-color
+        mengatur warna pada background
+
+    - background-image
+        mengatur gambar yang akan digunakan pada background
+
+    - background-position
+        mengatur posisi gambar pada background
+
+            top left 
+            top center 
+            top right 
+            center left 
+            center center 
+            center right 
+            bottom left 
+            bottom center 
+            bottom right 
+            x% y%
+            x-pos y-pos 
+
+    - background-repeat
+        mengatur jenis pengulangan gambar pada background
+
+            repeat 
+            repeat-x 
+            repeat-y
+            no-repeat
+
+        
+
+Shorthand
+
+    background: color url() position repeat;
+
+    contoh :
+
+    background: lightgreen url(bg.png) top left no-repeat;
+
+
+website shorthand background 
+    https://www.w3schools.com/css/css_background_shorthand.asp
+
+Website pola background
+
+    https://www.subtlepatterns.com 
+
+

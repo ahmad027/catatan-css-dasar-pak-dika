@@ -1,0 +1,46 @@
+# CSS Selector 
+
+
+    digunakan pada css untuk mengenali sebuah elemen HTML yang akan diberi style.
+
+Selectors 
+
+    element HTML 
+    id 
+    class 
+    complex selector 
+
+
+/* cara bacanya css, tolong pilihkan saya tag a yang ada di dalam li yang ada di dalam ul  */
+    
+    ul li a {
+        color: orange;
+    }
+
+
+ /* cara bacanya css, tolong pilihkan saya tag a yang ada di dalam li yang ada di dalam ol  */
+
+    ol li a {
+        color: red;
+    }
+
+
+Pemanggilan selector id menggunakan (#), sedangkan pemanggilan selector class menggunakan (.)
+
+    contoh :
+
+    #p1 {
+        color: orange;
+    }
+
+    .p2 {
+        color: red;
+    }
+
+
+Id  
+    - Sebuah elemen HTML hanya boleh memiliki 1 id
+    - Setiap halaman hanya boleh memiliki 1 elemen id tersebut
+    - Dapat digunakan sebagai penanda halaman untuk link
+    - Digunakan juga untuk javascript 
+    - Sebaiknya tidak digunakan untuk CSS (lebih baik gunakan class)

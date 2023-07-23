@@ -1,0 +1,10 @@
+body {
+  /* background-color: white;
+  background-image: url(gambar/pohon2.png);
+    background-position: top center;
+  background-repeat: no-repeat; */
+
+  /* background: lightgreen url(gambar/pohon2.png) top left no-repeat; */
+
+  background: url(gambar/pohon2.png) white no-repeat top center;
+}
