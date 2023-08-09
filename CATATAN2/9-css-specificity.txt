@@ -1,0 +1,75 @@
+# CSS Specificity
+
+
+pengertiannya @ setiap deklarasi css (selector) memiliki berat yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector.
+
+
+Dalam selector #p1 lebih spesifik dari tag <p>
+
+
+cara menghitung nilai Specificity
+
+    anggap memiliki 4 digit angka
+    0       0       0       0
+    inline  id  class   element 
+
+
+    misal :
+
+    #p1 {
+        color: red;
+    }
+
+    p {
+        color: green;
+    }
+
+                inline      id      class       element
+    dalam #p1 = 0           1        0              0
+    dalam p =   0           0        0              1
+
+
+    bisa dilihat #p1 memiliki nilai 100, jadi #p1(id) lebih spesifik dari p
+
+
+
+    misal lain:
+
+    ul#sarapan li {
+        color: green;
+    }
+
+    .favorit {
+        color: red;
+    }
+
+                    inline      id      class       element
+
+    ul#sarapan li =    0        1          0            2 (ul dan li)
+    .favorit =         0        0          1            0
+
+
+    bisa dilihat ul#sarapan li memiliki nilai 102, jadi ul#sarapan li lebih spesifik
+
+
+
+    kalau mau favorit berubah warna merah, jadi tambahkan berat specifitynya
+
+    contoh :
+
+    ul#sarapan li.favorit {
+        color: red;
+    }
+
+                            inline      id      class       element
+    ul#sarapan li         =    0        1          0            2 (ul dan li)
+    ul#sarapan li.favorit =    0        1          1            2
+
+
+    bisa dilihat ul#sarapan li.favorit memiliki nilai 112, jadi ul#sarapan li.favorit lebih spesifik
+
+
+
+web  kalkulator Specificity
+
+http://specificity.keegan.st

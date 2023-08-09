@@ -1,0 +1,52 @@
+.hello:link {
+  color: green;
+}
+
+.hello:hover {
+  color: green;
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.hello:active {
+  font-style: italic;
+}
+
+.hello:visited {
+  color: red;
+}
+
+/* css tolong carikan saya a yang akan di dalam li tapi yang merupakan anak pertamanya */
+li:first-child a {
+  color: green;
+}
+
+li:last-child a {
+  color: black;
+}
+
+/* genap */
+li:nth-child(even) a {
+  color: aqua;
+}
+
+li:nth-child(even) a:hover {
+  color: purple;
+}
+
+/* ganjil */
+li:nth-child(odd) a {
+  color: purple;
+}
+
+li:nth-child(odd) a:hover {
+  color: aqua;
+}
+
+p:first-of-type {
+  color: red;
+}
+
+p:last-of-type {
+  color: greenyellow;
+}
